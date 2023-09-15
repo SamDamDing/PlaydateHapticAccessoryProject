@@ -46,12 +46,15 @@ This project allows the user to define and play back haptic feedback patterns on
   ```
   PLAY:1
   ```
-
+- Stop a pattern with
+  ```
+  STOP
+  ```
 ## Troubleshooting
 
 - Ensure the baud rate of the serial connection matches the one specified in the code (`115200`).
 - If patterns are not playing as expected, check the serial monitor for debug output.
-  
+
 ## Dependencies
 
 - DA7280 Haptic Driver Library (provided)
@@ -60,11 +63,5 @@ This project allows the user to define and play back haptic feedback patterns on
 
 - Implement a non-blocking pattern definition mechanism.
 - Extend support for additional haptic drivers.
-  
-## Credits
-
-Project developed by [Your Name]. Special thanks to OpenAI's ChatGPT for guidance and support.
-
----
-
-You can modify and expand upon this README to better suit the specifics and nuances of your project. This template provides a basic structure and content that you can build upon.
+- Fix bugs
+- Make a 3d printed case and a custom pcb probably inspired by the Playdate Camera project.
