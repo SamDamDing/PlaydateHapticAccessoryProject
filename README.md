@@ -17,7 +17,7 @@ This project allows the user to define and play back haptic feedback patterns on
 
 - **Define Haptic Patterns**: Create custom vibration patterns with varying intensity and duration.
 - **Play Patterns**: Trigger the playback of a defined pattern using simple serial commands.
-- **Non-blocking Playback**: Patterns are played back without blocking the main execution loop, allowing for smooth and responsive haptic feedback.
+
   
 ## How to Use
 
@@ -57,7 +57,8 @@ This project allows the user to define and play back haptic feedback patterns on
 
 ## Dependencies
 
-- DA7280 Haptic Driver Library (provided)
+- [DA7280 Haptic Driver Library](
+https://github.com/sparkfun/SparkFun_Qwiic_Haptic_Driver_DA7280_Arduino_Library/tree/main)
 
 ## Future Enhancements
 
