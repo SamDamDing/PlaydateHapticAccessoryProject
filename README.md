@@ -1,4 +1,4 @@
-# PlaydateHapticAccessoryProject
+# Playdate Haptic Accessory Project
 A project that makes your Playdate vibrate. *PHAP*
 
 ### This project is very much a work in progress. So far it only works over serial. Not on Playdate quite yet. Proceed at your own risk......
